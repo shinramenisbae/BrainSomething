@@ -1,11 +1,10 @@
 import React from 'react'
-
-// components
 import Game1 from "../components/Game1"
+import ChimpTest from "../components/ChimpTest"
 
-const Home = () => {
+const ChimpTestPage = () => {
     return (
-        <div className="home">
+        <div className="ChimpTestPage">
             <div className="dinoGame">
                 {/* Render the minigame component */}
                 <Game1 />
@@ -14,4 +13,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default ChimpTestPage
